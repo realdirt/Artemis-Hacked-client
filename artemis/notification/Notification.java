@@ -13,6 +13,9 @@ import java.awt.Color;
 
 import org.lwjgl.opengl.GL11;
 
+/*
+superblaubeere27
+ */
 public class Notification {
     private NotificationType type;
     private String title;

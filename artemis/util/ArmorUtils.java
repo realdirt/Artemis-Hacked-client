@@ -5,6 +5,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class ArmorUtils {
+    /*
+icarus
+     */
     public static boolean isBetterArmor(int slot, int[] armorType) {
         if(Minecraft.getMinecraft().thePlayer.inventory.armorInventory[slot] != null) {
             int currentIndex = 0;

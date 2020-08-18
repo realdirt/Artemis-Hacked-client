@@ -12,6 +12,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.Session;
 
+/*
+Icarus B15
+ */
 public final class AltLoginThread
 extends Thread {
     private final String password;

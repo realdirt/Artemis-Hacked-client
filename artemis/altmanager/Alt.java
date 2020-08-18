@@ -1,6 +1,8 @@
 package artemis.altmanager;
 
-
+/*
+Icarus B15
+ */
 public final class Alt {
     private String mask = "";
     private final String username;

@@ -17,7 +17,9 @@ import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-
+/*
+liquidbounce
+ */
 public class GuiMCLeaks extends GuiScreen {
     private GuiTextField tokenField;
     private String status;
@@ -27,7 +29,7 @@ public class GuiMCLeaks extends GuiScreen {
     @Override
     public void initGui() {
         Keyboard.enableRepeatEvents(true);
-        if (MCLeaks.isAltActive()) status = "§aToken active. Using §9${MCLeaks.getSession().username}§a to login!";
+        if (MCLeaks.isAltActive()) status = "ï¿½aToken active. Using ï¿½9${MCLeaks.getSession().username}ï¿½a to login!";
 
         // Add buttons
         buttonList.add(new GuiButton(1, width / 2 - 100, height / 4 + 65, 200, 20, "Login"));
@@ -61,7 +63,7 @@ public class GuiMCLeaks extends GuiScreen {
        if(button.id == 1) {
             
                 if (tokenField.text.length() != 16) {
-                    status = "§cThe token has to be 16 characters long!";
+                    status = "ï¿½cThe token has to be 16 characters long!";
                     return;
                 }
 
@@ -70,7 +72,7 @@ public class GuiMCLeaks extends GuiScreen {
 
                 MCLeaks.redeem(tokenField.text, null); {
                    
-                        status = "§c$it";
+                        status = "ï¿½c$it";
                         button.enabled = true;
                         button.displayString = "Login";
                         
@@ -91,7 +93,7 @@ public class GuiMCLeaks extends GuiScreen {
                     }
                     
 
-                    status = "§aYour token was redeemed successfully!";
+                    status = "ï¿½aYour token was redeemed successfully!";
                     button.enabled = true;
                     button.displayString = "Login";
 

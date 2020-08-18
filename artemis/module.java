@@ -13,6 +13,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.network.play.server.S02PacketChat;
 
+// nice naming conventions btw
 public class module {
 	
 	protected Minecraft mc = Minecraft.getMinecraft();

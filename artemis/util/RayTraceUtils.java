@@ -3,7 +3,7 @@ package artemis.util;
 
 public class RayTraceUtils {
 	
-	//by StaticCode
+	//by StaticCode violence
 	
 	
    public double yaw;
