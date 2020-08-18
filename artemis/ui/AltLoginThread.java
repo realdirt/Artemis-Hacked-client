@@ -11,6 +11,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.Session;
 
+/*
+icarus nice duplicate btw
+ */
 public final class AltLoginThread
 extends Thread {
     private final String password;

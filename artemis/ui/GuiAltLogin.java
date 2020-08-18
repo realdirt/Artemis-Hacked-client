@@ -7,6 +7,9 @@ import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.util.EnumChatFormatting;
 import org.lwjgl.input.Keyboard;
 
+/*
+icarus nice duplicate btw
+ */
 public final class GuiAltLogin
 extends GuiScreen {
     private PasswordField password;

@@ -17,6 +17,9 @@ import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.util.EnumChatFormatting;
 
 
+/*
+Icarus B15
+ */
 public class GuiAddAlt
 extends GuiScreen {
     private final GuiAltManager manager;

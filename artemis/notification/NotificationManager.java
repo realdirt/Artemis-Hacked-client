@@ -3,6 +3,9 @@ package artemis.notification;
 import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
 
+/*
+superblaubeere27
+ */
 public class NotificationManager {
     private static LinkedBlockingQueue<Notification> pendingNotifications = new LinkedBlockingQueue<Notification>();
     private static Notification currentNotification = null;

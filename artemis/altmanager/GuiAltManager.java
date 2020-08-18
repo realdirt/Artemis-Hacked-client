@@ -17,7 +17,9 @@ import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.util.EnumChatFormatting;
 
 
-
+/*
+Icarus B15
+ */
 public class GuiAltManager
 extends GuiScreen {
     private GuiButton login;
